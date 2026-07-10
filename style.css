@@ -12,7 +12,7 @@ html {
 .container {
   max-width: 1200px;
   margin: auto;
-  padding: 0 20px;
+  /* padding: 0 20px; */
 }
 
 /* Navbar style */
@@ -105,9 +105,62 @@ nav ul li a:hover {
   background-image: url(./images/banner.jpg);
   background-size: cover;
   background-position: center;
-  height: 80vh;
+  height: 85vh;
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
   align-items: center;
+  text-align: center;
 }
 
+/* Speakers card style  */
+.meet-the-speakers {
+  text-align: center;
+  margin-bottom: 56px;
+  font-size: 50px;
+  font-weight: 600;
+}
+
+.speakers-card {
+  margin-top: 56px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+  margin-bottom: 56px;
+}
+.card {
+  overflow: hidden;
+  border: 1px solid #575757;
+  border-radius: 8px;
+  text-align: start;
+}
+.card img {
+  width: 100%;
+  display: block;
+}
+
+.speaker-tag {
+  font-size: 14px;
+  font-weight: 500;
+  color: #1d4ed8;
+}
+
+.speaker-name {
+  font-size: 18px;
+  font-weight: 700;
+}
+.speaker-role {
+  color: #575757;
+  font-size: 14px;
+}
+
+.card h2,
+.card p {
+  padding-left: 10px;
+  padding-bottom: 10px;
+}
