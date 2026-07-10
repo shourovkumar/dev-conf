@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', sans-serif;
+}
+
+/* Common container for layout */
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 20px;
+}
+
+/* Navbar style */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #575757;
+  font-weight: 500;
+}
+nav ul li a:hover {
+  color: #1d4ed8;
+}
+
+.navbar {
+  padding: 20px 0;
+}
+
+/* Common button style */
+.common-btn {
+  color: white;
+  background-color: #1d4ed8;
+  font-size: 16px;
+  padding: 8px 30px;
+  border: 1px solid #1d4ed8;
+  border-radius: 8px;
+  cursor: pointer;
+  transition:
+    background-color 0.3s,
+    transform 0.2s;
+}
+.common-btn:hover {
+  background: #ffffff;
+  color: #1d4ed8;
+}
