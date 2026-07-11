@@ -15,6 +15,11 @@ html {
   /* padding: 0 20px; */
 }
 
+/* Common uppercase class */
+.uppercase-text {
+  text-transform: uppercase;
+}
+
 /* Navbar style */
 nav {
   display: flex;
@@ -163,4 +168,109 @@ nav ul li a:hover {
 .card p {
   padding-left: 10px;
   padding-bottom: 10px;
+}
+
+/* Secure Your Spot section */
+.secure-your-spot {
+  text-align: center;
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.secure-your-spot-p {
+  text-align: center;
+  font-size: 16px;
+  color: #575757;
+  padding-bottom: 10px;
+}
+
+.pricing-section {
+  margin-bottom: 200px;
+  height: 50vh;
+}
+
+.pricing-card {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 40px;
+  gap: 20px;
+}
+
+.bullets li::marker {
+  color: #1d4ed8;
+  font-size: 1rem;
+}
+
+.p-card {
+  border: 1px solid #575757;
+  border-radius: 8px;
+  padding: 20px;
+  padding: 50px;
+}
+.pro-card {
+  background-color: #0d1b2a;
+  color: white;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  padding: 20px;
+  padding: 50px;
+}
+
+.pro-p {
+  color: #93c5fd;
+}
+
+.card-price {
+  font-size: 48px;
+}
+.card-packages {
+  margin: 15px 0;
+}
+.card-person {
+  color: #575757;
+  font-size: 14px;
+}
+
+.card-content {
+  margin: 15px 0;
+  padding-bottom: 20px;
+  line-height: 2rem;
+}
+.pricing-btn {
+  background-color: white;
+  color: #1d4ed8;
+  display: block;
+  margin: 20px auto 0;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 10px 80px;
+  border: 1px solid #1d4ed8;
+  border-radius: 8px;
+  cursor: pointer;
+  transition:
+    background-color 0.3s,
+    transform 0.2s;
+}
+.pricing-btn:hover {
+  background-color: #1d4ed8;
+  color: white;
+}
+.pro-pricing-btn {
+  background-color: #1d4ed8;
+  color: white;
+  display: block;
+  margin: 20px auto 0;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 10px 80px;
+  border: 1px solid #1d4ed8;
+  border-radius: 8px;
+  cursor: pointer;
+  transition:
+    background-color 0.3s,
+    transform 0.2s;
+}
+.pro-pricing-btn:hover {
+  background-color: white;
+  color: #1d4ed8;
 }
