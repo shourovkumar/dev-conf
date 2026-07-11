@@ -70,6 +70,7 @@ nav ul li a:hover {
 
 /* Hero section */
 .hero-content {
+  margin: 200px;
   text-align: center;
   align-items: center;
   color: white;
