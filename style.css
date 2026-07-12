@@ -95,7 +95,7 @@ nav ul li a:hover {
   border-radius: 8px;
   padding: 15px 40px;
   font-weight: 500;
-  margin-top: 300px;
+  margin-top: 200px;
   cursor: pointer;
   transition:
     background-color 0.3s,
@@ -151,6 +151,7 @@ nav ul li a:hover {
 }
 
 .speaker-tag {
+  padding: 20px;
   font-size: 14px;
   font-weight: 500;
   color: #1d4ed8;
@@ -163,11 +164,12 @@ nav ul li a:hover {
 .speaker-role {
   color: #575757;
   font-size: 14px;
+  margin-bottom: 15px;
 }
 
 .card h2,
 .card p {
-  padding-left: 10px;
+  padding-left: 20px;
   padding-bottom: 10px;
 }
 
@@ -211,7 +213,7 @@ nav ul li a:hover {
 .pro-card {
   background-color: #0d1b2a;
   color: white;
-  border: 1px solid transparent;
+  border: 2px solid transparent;
   border-radius: 8px;
   padding: 20px;
   padding: 50px;
